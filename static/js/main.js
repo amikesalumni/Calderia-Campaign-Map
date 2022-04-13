@@ -5,7 +5,7 @@ var map = L.map('map', {
   minZoom: -4
 });
 var bounds = [[0,0], [8192,8192]];
-var image = L.imageOverlay('Campaign Map 13.jpg', bounds).addTo(map);
+var image = L.imageOverlay('../Campaign Map 13.jpg', bounds).addTo(map);
 map.fitBounds(bounds);
 
 function style() {
