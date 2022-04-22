@@ -13,9 +13,17 @@
 </head>
 
 <body>
-  <div id="map"></div>
-  <script src="..\static\js\regiondata.js"></script>
-  <script src="..\static\js\main.js"></script>
+  <div class="row"></div>
+    <div>
+      <p id="output">Click on a Region to get started</p>
+    </div>
+    <div id="map"></div>
+    
 </body>
-
+<script src="{{ url_for('static', filename="js/regiondata.js")}}"></script>
+<script src="{{ url_for('static', filename="js/main.js")}}"></script>
 </html>
+
+<!--
+<script src="..\static\js\regiondata.js"></script>
+<script src="..\static\js\main.js"></script>-->

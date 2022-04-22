@@ -35,7 +35,8 @@ var region_pillar = {
       "id":"003",
       "properties": {
         "name": "The Pixie Swamp",
-        "markerlatlonarray": [[2050,4400]]
+        "markerlatlonarray": [[2050,4400]],
+        "markernames": ["Session 2: The Pixies Swamp"],
       },
         "geometry": {
           "type": "Polygon",
@@ -47,7 +48,8 @@ var region_pillar = {
       "id":"004",
       "properties": {
         "name": "The Rocky Plain",
-        "markerlatlonarray": [[2050,3050]]
+        "markerlatlonarray": [[2050,3050]],
+        "markernames": ["Session 3: The Rocky Plain"],
       },
         "geometry": {
           "type": "Polygon",
@@ -59,7 +61,8 @@ var region_pillar = {
       "id":"005",
       "properties": {
         "name": "The Dead Forest",
-        "markerlatlonarray": [[5000,4096]]
+        "markerlatlonarray": [[5000,4096]],
+        "markernames": ["Session 4: The Dead Forest"],
       },
         "geometry": {
           "type": "Polygon",
@@ -71,7 +74,8 @@ var region_pillar = {
       "id":"006",
       "properties": {
         "name": "Phil's Temple",
-        "markerlatlonarray": [[6000,4096]]
+        "markerlatlonarray": [[6000,4096]],
+        "markernames": ["Session 7: Phil's Temple"],
       },
         "geometry": {
           "type": "Polygon",
@@ -83,7 +87,8 @@ var region_pillar = {
       "id":"007",
       "properties": {
         "name": "Bertrand and Corbin",
-        "markerlatlonarray": [[6000,4096]]
+        "markerlatlonarray": [[6000,4096]],
+        "markernames": ["Session 8: Bertrand and Corbin"],
       },
         "geometry": {
           "type": "Polygon",
@@ -95,7 +100,8 @@ var region_pillar = {
       "id":"008",
       "properties": {
         "name": "The Lakeshore",
-        "markerlatlonarray": [[6000,4096]]
+        "markerlatlonarray": [[6000,4096]],
+        "markernames": ["Session 9: The Lakeshore"],
       },
         "geometry": {
           "type": "Polygon",
@@ -107,7 +113,8 @@ var region_pillar = {
       "id":"009",
       "properties": {
         "name": "bullywug swamp",
-        "markerlatlonarray": [[6000,4096]]
+        "markerlatlonarray": [[6000,4096]],
+        "markernames": ["Session 15: The Bullywug Burough"],
       },
         "geometry": {
           "type": "Polygon",
@@ -119,7 +126,8 @@ var region_pillar = {
         "id":"010",
         "properties": {
           "name": "githyanki camp",
-          "markerlatlonarray": [[6000,4096]]
+          "markerlatlonarray": [[6000,4096]],
+          "markernames": ["Session 11: The Mind Flayer"],
         },
           "geometry": {
             "type": "Polygon",
@@ -131,7 +139,8 @@ var region_pillar = {
         "id":"011",
         "properties": {
           "name": "Quyaz",
-          "markerlatlonarray": [[6000,4096]]
+          "markerlatlonarray": [[6000,4096]],
+          "markernames": ["Session 12: Raid on Quyaz"],
         },
           "geometry": {
             "type": "Polygon",
@@ -143,7 +152,8 @@ var region_pillar = {
         "id":"010",
         "properties": {
           "name": "The Chasms",
-          "markerlatlonarray": [[6000,4096]]
+          "markerlatlonarray": [[6000,4096]],
+          "markernames": ["Session 14: The Plateau"],
         },
           "geometry": {
             "type": "Polygon",

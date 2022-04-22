@@ -1,5 +1,23 @@
-#map{ height: 100% }
+#map{ height: 100%;
+    width: 75%;
+    float: left;
+}
 
+#output{ height: 100%;
+    width: 24%;
+    float: left;
+}
+/*
+.row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .block {
+    width: 100px;
+  }
+*/
 .info {
     padding: 6px 8px;
     font: 14px/16px Arial, Helvetica, sans-serif;
