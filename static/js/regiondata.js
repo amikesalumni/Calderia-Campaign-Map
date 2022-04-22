@@ -23,7 +23,7 @@ var region_pillar = {
         "markernames": ["Session 1: Marble Pillars", "Session 6: Fausta's First Mission", "Session 10: Fausta's Second Mission"],
         "markersummary": ["The adventures set out on their inaugural exploration of the island. They found a couple of locations of interest - a rocky plain, two marble pillars, and a swamp. They chose to investigate the pillars, finding an underground goblin encampment. Diablito is as mischievous as one might expect, Jingles has mad one liners, and Jude is a one earth genasi army.",
                           "Captain Fausta sent Malevir, Jon, and Jingles to examine two possible sites for a future base. The sites were the clearing in the rocky plain, and the two pillars surrounded by a ring of flowers. We were accompanied by Don, a craftsman (not a fighter) who determined the viability of each site, and three scouts, Erwin, Oliver, and Olivia. The party went to the site of the pillars first, and saw 6 goblins riding worgs. Jingles disguised himself as a fellow goblin, and convinced them to leave the site under the premise of recruiting members for a goblin alliance, in what was surely the greatest acting performance ever seen in Calderia. The site was deemed viable by Don, and the party moved to the rocky plains. Upon arriving in the clearing, Jon discovered a thri-kreen, and waved to it. The thri-kreen ran away from the party, rather than communicate with us. This site was also deemed acceptable, but the party decided that the pillars location would be more advantageous, and determined that would be the location of the first outpost. While returning to the fort, the party passed by the pillars again, and found 8 goblins riding worgs now. They chose to attack rather than negotiate terms of the goblin alliance this time. The party defeated the goblins while only taking minor damage and no fatalities. Captain Fausta was pleased with the progress made, and began planning for the expedition to begin construction of the outpost.",
-                          "The adventurers accepted the mission from Captain Fausta to defend the building crews while they erected an outpost at the site of the pillars. While accepting the mission, they noticed that the Captain was armed with the magic sword from Philius's shop, which she claimed to be borrowing. A very large defensive force was conscripted, with a company situated at each of the cardinal directions in case of attack. The company to the East was attacked by a band of goblins, and required assistance from our heroes to fend them off. While this was going on, a second, larger force attacked the North company, led by Captain Fausta. As the smaller band of goblins was almost completely handled, the adventurers moved against the new attackers. Our adventurers arrived to find hobgoblins attacking the company, as well as a group of bugbears surrounding Captain Fausta. These enemies appeared to be led by a magical figure on the edge of the battle field who was commanding a second group of bugbears, a powerful but unidentified figure, and an enormous black wolf the leader used as a mount. The figure was seen casting fireball just before the party arrived to help. Our heroes began to intervene, but were buffeted by a magical hailstorm before all of them could join the fight. The Captain was knocked unconscious by the bugbears surrounding her as the party began to beat back the attackers. Eventually the enemies were forced into a retreat (taking the magical sword from Captain Fausta as they did), just as the adventurers and company were beginning to show signs of fatigue. The sword was recovered however, and returned to the Captain's possession. Following the retreat, our heroes were able to return to the fort and rest, as well as care for the wounded soldiers. The mission was ultimately considered a success, despite the significant casualties endured."]
+                          "The adventurers accepted the mission from Captain Fausta to defend the building crews while they erected an outpost at the site of the pillars. While accepting the mission, they noticed that the Captain was armed with the magic sword from Philius's shop, which she claimed to be borrowing. A very large defensive force was conscripted, with a company situated at each of the cardinal directions in case of attack. The company to the East was attacked by a band of goblins, and required assistance from our heroes to fend them off. While this was going on, a second, larger force attacked the North company, led by Captain Fausta. As the smaller band of goblins was almost completely handled, the adventurers moved against the new attackers.</br></br>Our adventurers arrived to find hobgoblins attacking the company, as well as a group of bugbears surrounding Captain Fausta. These enemies appeared to be led by a magical figure on the edge of the battle field who was commanding a second group of bugbears, a powerful but unidentified figure, and an enormous black wolf the leader used as a mount. The figure was seen casting fireball just before the party arrived to help. Our heroes began to intervene, but were buffeted by a magical hailstorm before all of them could join the fight. The Captain was knocked unconscious by the bugbears surrounding her as the party began to beat back the attackers. Eventually the enemies were forced into a retreat (taking the magical sword from Captain Fausta as they did), just as the adventurers and company were beginning to show signs of fatigue. The sword was recovered however, and returned to the Captain's possession. Following the retreat, our heroes were able to return to the fort and rest, as well as care for the wounded soldiers. The mission was ultimately considered a success, despite the significant casualties endured."]
       },
         "geometry": {
           "type": "Polygon",
@@ -36,7 +36,8 @@ var region_pillar = {
       "properties": {
         "name": "The Pixie Swamp",
         "markerlatlonarray": [[2050,4400]],
-        "markernames": ["Session 2: The Pixies Swamp"],
+        "markernames": ["Session 2: Pixies and Bullywugs"],
+        "markersummary": ["The party opted to explore the swamp to the east of the marble pillars. They encountered some pixies who asked for help driving invaders from their land. The party agreed and followed Dave the pixie who led them first to small group of bullywugs and giant toads. After successfully destroying the first group they pursued some fleeing bullywugs and stumbled across a larger camp where they were ambushed. After driving off the remainder of the creatures they discovered gold and a rusty greatsword. In return for their help the pixies granted safe passage through their land and a pixie berry."]
       },
         "geometry": {
           "type": "Polygon",
@@ -49,7 +50,8 @@ var region_pillar = {
       "properties": {
         "name": "The Rocky Plain",
         "markerlatlonarray": [[2050,3050]],
-        "markernames": ["Session 3: The Rocky Plain"],
+        "markernames": ["Session 3: The Thri-Kreen"],
+        "markersummary": ["Jingles pitched a zoo to Ernesto, still waiting on a decision. Team explored the western field full of boulders. Fought alongside large insects against giants bugs. Went underground to fight more giant bugs. Jingles found something that gave him instructions, then the team fought 3 hook-horrors. After the team found gold in a bug carcass, as well as some hook-horror eggs (team brought one egg back to the colony for the zoo). Tried to return to the surface, but the hole was filled in, so the team had to dig ourselves out. Giant insects paid us the reward, but did not allow us to meet their queen as previously agreed to. After some back-and-forth, the team returned to the fort"]
       },
         "geometry": {
           "type": "Polygon",
@@ -61,8 +63,10 @@ var region_pillar = {
       "id":"005",
       "properties": {
         "name": "The Dead Forest",
-        "markerlatlonarray": [[5000,4096]],
-        "markernames": ["Session 4: The Dead Forest"],
+        "markerlatlonarray": [[2500,3500],[2500,4050]],
+        "markernames": ["Session 4: Spider Ambush","Session 5: Ambushing Spiders"],
+        "markersummary": ["A (perhaps too bright eyed and bushy tailed) trio of Jude, Nowhere and Jon set out to explore the lands north of the rocky planes. Upon examining the area, there appeared to be three new areas of the island to traverse. Farthest west was the entrance to a cave, in the middle appeared to be a leafy forest with some structure in the middle, and farthest east was a dead, gloomy forest with an unnerving darkness just north of the previously explored pillars. The trio took to the eerie forest, where they were met with an oppressive darkness, webbing and lifeless trees. Upon flying to look around, Nowhere seemed to land the trio in a bit of a pickle where they encountered an ettercap, wolf spiders and spider swarms. After a short rest, the trio took a note from the spiders book and set their own ambush, luring arachnids from the den and trapping them by lighting their webs aflame. The trio didn't fully explore the den as they preferred to do so, and hopefully encounter its spoils, with a team of greater numbers. ",
+                          "Jude, Nowhere, Jon, and Malevir returned to the eerie forest where they assaulted the spider den. After defeating the arachnid denizens, the oppressive darkness of the forest lifted. They found multiple decayed humanoid bodies in the den's webbing one of which held a single sheet of paper with the message: 'It awakens'. A funeral pyre for those humanoid bodies got slightly out of control, so the party hastily returned to the colony with a pillar of smoke rising behind them."]
       },
         "geometry": {
           "type": "Polygon",
@@ -73,9 +77,10 @@ var region_pillar = {
       {"type":"Feature",
       "id":"006",
       "properties": {
-        "name": "Phil's Temple",
-        "markerlatlonarray": [[6000,4096]],
+        "name": "A Small Forest",
+        "markerlatlonarray": [[2740,2942]],
         "markernames": ["Session 7: Phil's Temple"],
+        "markersummary": ["The party pushed into the leafy forest directly north of the rocky plain. They encountered a large structure surrounded by a low wall. They also noted that a tree seemed to be pushing through the top of the building. Upon entering the front of the building they were created by a hooved and horned humanoid named Phil standing behind an altar. Phil was a little confused by was able to explain that retrieving relics form elsewhere in the temple and placing them on the altar would open the door behind him. He then directed the party to his brothers in the adjacent rooms for more information on how to retrieve the relics. Phil's brothers happened to look exactly like him and also be named Phil. They gave the party two tasks to carry out, one on the upper floors of the temple and one in the basement. The party completed the upper floor first by slaying an owlbear and thereby releasing a dryad from the temple which had become her prison. The party then entered the basement where they were attacked by some fish people. After retrieving the relics (figurines which were also shaped in the exact form of Phil), the party placed them on the altar opening the door behind Phil and revealing 3 chests containing a deck of cards, some gold, and a blank slip of paper."]
       },
         "geometry": {
           "type": "Polygon",
@@ -86,9 +91,10 @@ var region_pillar = {
         {"type":"Feature",
       "id":"007",
       "properties": {
-        "name": "Bertrand and Corbin",
-        "markerlatlonarray": [[6000,4096]],
+        "name": "Mountain Side Cave",
+        "markerlatlonarray": [[2600,2280]],
         "markernames": ["Session 8: Bertrand and Corbin"],
+        "markersummary": ["Lazrim, Malevir, Jon, Nowhere, and Jude went to explore the previously unexamined cave. They met two humanoids standing outside but looking inside of the cave who had been stranded on the island after a shipwreck, and living inside the cave for some time now. The cave had a security system that began malfunctioning recently, and they asked us for assistance with it.</br></br>Once inside the cave the party found six enormous animated suits of armor. Each one told the party a riddle about the suits of armor guarding the cave. After speaking to all six suits of armor, the party was able to discern the answers to all six riddles - disabling the security system.</br></br> While continuing to explore the cave, two unexpected discoveries were made. First, it became clear to the party that there were actually three people living in the cave recently, not just the two that we met. Secondly, the party found a pool of water in the cave that, when drained, was revealed to contain a large amount of gold as well as two humanoid skeletons.</br></br> Once leaving the cave, the party confronted the two beings about their findings in the cave. It became clear that the party was being lied to, and diplomatic relations broke down. A blue doppelganger leapt from above the cave, the presumed third resident of the cave. The other two beings were also revealed to be doppelgangers during the fight. Two were killed, and the third was taken capture and brought back to the fort for further questioning."]
       },
         "geometry": {
           "type": "Polygon",
@@ -99,9 +105,10 @@ var region_pillar = {
         {"type":"Feature",
       "id":"008",
       "properties": {
-        "name": "The Lakeshore",
-        "markerlatlonarray": [[6000,4096]],
+        "name": "The Lake",
+        "markerlatlonarray": [[2700,3800]],
         "markernames": ["Session 9: The Lakeshore"],
+        "markersummary": ["Our adventurers proceeded north from explored territory, coming across a large lake. They decided to follow the coast west and arrived a bridge guarded by a two headed troll. The troll required payment in order to cross, but was willing to make a deal. If the adventurers were to dispose of the competition (a troll guarding the bridge on the east side of the lake), they would be allowed passage for free. </br></br>The party proceeded to the eastern bridge where they attempted to bargain, distract, and trick this one headed troll. The troll, befuddled by the actions of the party, attacked and was rapidly killed.</br></br>Our adventurers then continued around the northern coast of the lake before crossing the now free to pass bridge on their way home.</br></br>A lingering mystery about the lake remains: on both the southern and northern coasts the group met ghostly individuals (possible the same, possibly different) without corporeal forms. The specters both conveyed a similar message, namely that the lake was a source of impurity in the region yielding new monsters and poisoning the land. They charged the adventurers with purifying the lake by disposing of an aquatic beast that lives along the northern shore."]
       },
         "geometry": {
           "type": "Polygon",
@@ -112,9 +119,12 @@ var region_pillar = {
         {"type":"Feature",
       "id":"009",
       "properties": {
-        "name": "bullywug swamp",
-        "markerlatlonarray": [[6000,4096]],
-        "markernames": ["Session 15: The Bullywug Burough"],
+        "name": "Bullywug Swamp",
+        "markerlatlonarray": [[2100,5080],[2340,5180]],
+        "markernames": ["Session 15: The Bullywug Burough", "Session 16: The Hunt for the Voracious One"],
+        "markersummary": ["Lazrim, Malevir, and Nowhere traveled north along the east side of the river, to explore the swamp on the other side of the river from the swamp explored very early on in our missions. They had the privilege of meeting Shrek, Fiona, Donkey, and Puss in Boots. Nowhere sampled some swamp-stew. After asking for information about the island, they were told that the frogs would really know the most, but not to meet the frogs because they have a monster that devours everything. Naturally, the party went to meet the frogs and took Donkey, who said he enjoys seeing the frogs and may grant them safer passage. </br></br>In the frog (bullywug) village, the party was ushered to a back cave where they met the frog leader. After lying marginally successfully that the party had not, in fact, killed a ton of frogs on an earlier mission, the frog leader struck a deal with our adventurers: bring back some renegades with the town’s treasure, and the leader would choose to believe the party wasn’t involved and would grant information about the island. </br></br>The party left and found the renegades. Gix, the lead renegade, said that the frog leader (Gix’s dad) sacrificed villagers to “the Voracious One” (an underwater monster in the middle of the village) following the genocide of the frog farmers. Our adventurers allied themselves with the renegades to improve chances of weakening the Voracious One. (Donkey peaced out, as a general pacifist.) Together with some renegades, our adventurers set up an ambush and managed to kill “Dad” and some bullywug bruisers while the renegades helped some of the villagers escape the town</br></br>" + "Gix, the lead renegade, repaid the adventurers with gold and a nice serrated rapier. Gix and his renegade/villager crew will settle in the original swamp for now but fear encountering the genocidal maniacs who killed their brethren, so they want to resettle soon. If the party returns to kill the Voracious One, the bullywugs may assist so they can reclaim their village. Visiting Shrek & Co. on the way back revealed an annoyed Shrek, Fiona, Donkey, and Puss packing up their belongings. Now that there are very few frog villagers left to continue feeding it, the Voracious One will likely begin expanding its territory. Puss gave some information regarding the monster: It has tentacles, a huge maw, and a tongue that can reach large distances, and fire appears ineffective against it because of the"+
+                          "  large amount of slime and mucus. The adventurers asserted that they would return with reinforcements to kill the monster and attempt to restore the homes of Shrek & Co. as well as the (friendlier) bullywugs.",
+                          "Jon, Lazrim, Malevir, and Nowhere adventured out to kill the Voracious One. They met Gix along the way, who agreed to accompany them. Through some quick thinking, use of tools, and really killer Thunderwave action, they managed to eventually kill the beast, but not before Malevir was briefly swallowed. Everyone escaped with their lives except the Froghemoth. After, they checked out one of the old leader's bodyguards, who had appeared at the beginning and yelled at them. After doing some questioning (by Gix, in their native language), the party got the impression that the bodyguard had been possessed in some capacity by the Froghemoth and now recalled bits and pieces of another's memories. The being that was/became the Froghemoth seemed to come from another realm of some sort, coming through a glowing hole in a lake and later battling two armies. The Froghemoth was, to its knowledge, the last of its kind on the island, though there used to be many. Gix and his people will now move back to that swamp on the eastern side of the river to stay."]
       },
         "geometry": {
           "type": "Polygon",
@@ -125,9 +135,10 @@ var region_pillar = {
         {"type":"Feature",
         "id":"010",
         "properties": {
-          "name": "githyanki camp",
-          "markerlatlonarray": [[6000,4096]],
+          "name": "Githyanki Camp",
+          "markerlatlonarray": [[2720,4970]],
           "markernames": ["Session 11: The Mind Flayer"],
+          "markersummary": ["Today, the party traveled north, over Marg’s bridge, and then east. They saw a heavily wooded area to the east, and a large plateau to the north east. As they entered the dense forest, something disturbed birds roosting in trees ahead of them. Sneaking forward, the party discovered a group of orcs searching for something as well as an individual hiding in the trees. An invisible Nowhere led the orcs away, and Jude led a conversation with the individual. This person pled for help; their village had been ravaged by the orc marauders, but more importantly the village had been holding an extremely dangerous being. They requested help in eliminating this threat, which was kept at the village training ground.</br></br>The party snuck to the training ground, avoiding the orcs’ notice. The dangerous being was kept in a basement, into which Nowhere and Malevir snuck. This, however, let the orcs into the basement as well. The rest of the party watched as Malevir and Nowhere fled the basement with the statement “we don’t want that smoke.” The orcs, under mind control, had released a mind flayer. The party, refusing to let the mind flayer be released upon the island, attacked it and released the orcs from its control. After slaying the mind flayer, the party fled and the orcs gave chase. The party returned to Margs bridge, and with the trolls help defeated the orcs. They returned home victorious!"]
         },
           "geometry": {
             "type": "Polygon",
@@ -139,8 +150,9 @@ var region_pillar = {
         "id":"011",
         "properties": {
           "name": "Quyaz",
-          "markerlatlonarray": [[6000,4096]],
+          "markerlatlonarray": [[3090,4990]],
           "markernames": ["Session 12: Raid on Quyaz"],
+          "markersummary": ["Today the party again travelled North across Marg's bridge, this time progressing further North into the forest in search of Okos's village. Before leaving the colony, Captain Fausta cautioned the party about being followed back by a band of orcs, putting the survival of the colony at risk. Upon nearing the expected location of the village, the party came to a dilapidated farm house that had been turned into an outpost by Orcs. Via a series of stealth attacks on the orcs at the farm house, the party cleared the outpost and recovered 50gp per member (besides Lazrim). </br></br>The party continued toward the town center, but soon realized that they did not have the manpower to reconquer the town, much less maintain control of it. There were simply too many orcs. While scouting the area to gain more information for a future attack, the party found a group of unsuspecting orcs, which Malevir found too enticing (and closely packed) to pass up attacking with fireball. The party eliminated the band of orcs and torched the town's fields of wheat in the process, but drew the attention of the rest of the town in the process, leading to the rest of the orc army following in pursuit. </br></br>Our heroes ran back to Marg's bridge, where they were able to take advantage of the choke point entering the bridge and Marg's considerable fighting prowess to put enough distance between the party and the chasing army of orcs. As far as the party can tell, they made it back to the colony without any orcs following them, fulfilling the wishes of Captain Fausta"]
         },
           "geometry": {
             "type": "Polygon",
@@ -151,9 +163,10 @@ var region_pillar = {
           {"type":"Feature",
         "id":"010",
         "properties": {
-          "name": "The Chasms",
-          "markerlatlonarray": [[6000,4096]],
-          "markernames": ["Session 14: The Plateau"],
+          "name": "The Plateau",
+          "markerlatlonarray": [[3250,4500]],
+          "markernames": ["Session 14: The Chasms"],
+          "markersummary": ["The party of Lazrim, Jon, Malevir, and Jingles travelled to the plateau across the river to the east of Quyaz. They discovered that rather than a single large plateau, the area is in fact made up of several smaller plateaus, divided by narrow canyons. The party wandered around the canyons for a bit before coming upon a strange being living in a cave in the canyon. He swapped information with the party, who learned that in the center of the plateau area there is a stone circle with important information regarding the history and magic of the island. Upon revealing this information, the creature attacked the party, and demonstrated the ability to melt into a fluid and move around. While battling this being, the cave was discovered by a band of orcs patrolling the area, presumably from Quyaz. They also attacked the party, and in the long skirmish Jingles was knocked unconscious. However, after the orcs and the mysterious being were defeated, Jingles was revived, and seemed to be even stronger than he had been previously. The party continued to the center of the plateau region, in pursuit of the stone circle. They eventually found a way onto the mesas and eventually to the central plateau. The stone circle was surrounded by a small moat, patrolled by black ravens, and its center was obscured by some sort of magical effect. As they approached the circle, the ravens mostly dispersed with one remaining raven transforming into an imp. The imp (speaking infernal) warned the party to stay back, away from the circle, which went unheeded. As some members penetrated the magical fog, they discovered and were attacked by four Bearded Devils. Eventually, a white abishai flew to the scene of battle as well, signaled by the ravens. The party battled, and eventually defeated the Devils and friends by controlling the terrain, dominant sword attacks, and a bit of chaotic magic. The stones (inscribed in Celestial) were translated by Jingles."]
         },
           "geometry": {
             "type": "Polygon",

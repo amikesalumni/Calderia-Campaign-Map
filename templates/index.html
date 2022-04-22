@@ -2,6 +2,9 @@
 
 <head>
   <title>Calderia Campaign Map</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
    crossorigin=""/>
@@ -9,21 +12,56 @@
    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
    crossorigin=""></script>
   <script src="Leaflet.TileLayer.IIP/TileLayer.IIP.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="..\static\style\style.css">
 </head>
 
 <body>
-  <div class="row"></div>
-    <div>
-      <p id="output">Click on a Region to get started</p>
+  <div class="row">
+    <div class="col-md-6">
+			<h1 id="title">Calderia</h1>
+		</div><!--
+		<div class="col-md-2">
+      <p>Map</p>
     </div>
-    <div id="map"></div>
-    
+    <div class="col-md-2">
+      <p>Characters</p>
+    </div>
+    <div class="col-md-2">
+      <p>Stats</p>
+    </div>-->
+  </div>
+
+  <div class="row">
+    <div class="col-md-4">
+      <div class="row">
+        <h3 id="explore">Click on a Region or Marker</h3>
+      </div>
+      <div class="row">
+        <h4 id="region_name"> </h4>
+      </div>
+      <div class="row">
+        <h6 id="marker_name">  </h6>
+      </div>
+      <div class="row1">
+        <p id="summary"> </p>
+      </div>
+    </div>
+    <div class="col-md-8">
+      <div id="map"></div>
+    </div>
+  </div>
+  
 </body>
-<script src="{{ url_for('static', filename="js/regiondata.js")}}"></script>
-<script src="{{ url_for('static', filename="js/main.js")}}"></script>
+<script src="..\static\js\regiondata.js"></script>
+<script src="..\static\js\main.js"></script>
 </html>
 
 <!--
-<script src="..\static\js\regiondata.js"></script>
-<script src="..\static\js\main.js"></script>-->
+</body>
+
+</html>
+-->
+<!--
+<script src="{{ url_for('static', filename="js/regiondata.js")}}"></script>
+  <script src="{{ url_for('static', filename="js/main.js")}}"></script>-->

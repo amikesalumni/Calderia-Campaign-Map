@@ -1,13 +1,15 @@
 // initialize the map
+var bounds = [[0,0], [8192,8192]];
 var map = L.map('map', {
   crs: L.CRS.Simple,
-  minZoom: -4//,
-  //maxBounds: bounds, // might have to set larger bounds than actually present for map if I want to prevent scrolling off
-  //maxBoundsViscosity: 1.0 prevent use from scrolling off map, tentatively less useful without map margins
+  zoomSnap: 0.25,
+  minZoom: -3.5,
+  maxBounds: bounds, // might have to set larger bounds than actually present for map if I want to prevent scrolling off
+  maxBoundsViscosity: 1.0 // prevent use from scrolling off map, tentatively less useful without map margins
 });
 
-var bounds = [[0,0], [8192,8192]];
-var image = L.imageOverlay('../Campaign Map 13.jpg', bounds).addTo(map);
+
+var image = L.imageOverlay('../Working Player Release.jpg', bounds).addTo(map);
 map.fitBounds(bounds);
 
 // adds gimp created path to the map
@@ -49,9 +51,10 @@ function resetHighlight(e) {
 }
 
 function zoomToFeature(e) {
-  //markerDelAgain();
   var layertest = e.target;
-  document.getElementById("output").innerHTML = '<h1>'+ layertest.feature.properties.name + '</h1>';
+  document.getElementById("region_name").innerHTML = '<h4>'+ layertest.feature.properties.name + '</h4>';
+  document.getElementById("marker_name").innerHTML = '<h6>' + '</h6>';
+  document.getElementById("summary").innerHTML = '<p>' + '</p>';
   map.fitBounds(layertest.getBounds());
 
 }
@@ -73,7 +76,8 @@ for(i=0; i<props.length; i++) {
     var marker = L.marker(coord).on('click',markerclick)
     marker.bindTooltip(props[i].properties.markernames[j]).openTooltip();
     marker.name = props[i].properties.markernames[j]
-    marker.key = 'marker key'
+    marker.summary = props[i].properties.markersummary[j]
+    marker.region = props[i].properties.name
     marker.addTo(mlayer)
   }};
 
@@ -84,49 +88,11 @@ var markers ={
 
 var layerControl = L.control.layers(null,markers).addTo(map);
 function markerclick(e) {
-  document.getElementById("output").innerHTML = '<h1>'+ this.name + '</h1>';
+  document.getElementById("region_name").innerHTML = '<h4>'+ this.region + '</h4>';
+  document.getElementById("marker_name").innerHTML = '<h6>'+ this.name + '</h6>';
+  document.getElementById("summary").innerHTML = '<p>'+ this.summary + '</p>';
 }
-
-/*
-//marker handling
-var markersLayer = new L.LayerGroup();
-//markersLayer.on("click", markerOnClick);
-function markerOnClick(e) {
-  var attributes = e.layer.properties;
-  console.log('markerclicked')
-  document.getElementById("output").innerHTML = '<h1>'+ 'attributes.name' + '</h1>';
-}
-
-var marker = new Array();
-//map.addLayer(markersLayer);
-
-// the way I understand is that for each lat and lang in items, this will create a marker and add it to the maker array
-function itemWrap(items) {
-  for(i=0;i<items.markerlatlonarray.length;i++){
-      var coord = L.latLng(items.markerlatlonarray[i])
-      var LamMarker = new L.marker(coord,label=items.markernames[i]).addTo(map); //Var lammarker is the marker
-      //LamMarker.properties = {}
-      //LamMarker.properties.name = items.markernames[i]
-      //LamMarker.properties.description = items.markersummary[i]
-      //LamMarker.on('click',markerOnClick);
-      // for the time being I don't want to use popups for the session summary, but I probably will want them for something else
-      //LamMarker.bindPopup("<b>" + items.markernames[i] + "</b><br>" + items.markersummary[i] +"</br>") //{offset: [100,0]}
-      marker.push(LamMarker); // the marker gets put in the array maker
-      //map.addLayer(marker[i]); // all markers in the array marker get added to map
-      //I'm not certain the bottom line above was important, so I added .addTo(map) to the marker creation event instead
-      }
-  }
-
-// This function should remove all markers on the map on a click
-function markerDelAgain() {
-  for(i=0;i<marker.length;i++) {
-      map.removeLayer(marker[i]);
-       // this should clear the marker array 
-      }
-  marker = [];    
-  }
-*/
-
+// i see, the red triangle appears next to a prior deletion for some reason
 // this provides a useful debugging thing because I can output properties into the legend and see if they change
 // correctly on a click or not
 /*
