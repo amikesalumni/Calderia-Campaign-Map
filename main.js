@@ -8,8 +8,7 @@ var map = L.map('map', {
   maxBoundsViscosity: 1.0 // prevent use from scrolling off map, tentatively less useful without map margins
 });
 
-
-var image = L.imageOverlay('../Working Player Release.jpg', bounds).addTo(map);
+var image = L.imageOverlay('./Working Player Release.jpg', bounds).addTo(map);
 map.fitBounds(bounds);
 
 // adds gimp created path to the map
@@ -65,7 +64,13 @@ function onEachFeature(feature, layer) {
       mouseout: resetHighlight,
       click: zoomToFeature,
   });}
-
+//custom markers
+/*
+var sessionmarker = L.AwesomeMarkers.icon({
+  icon: 'home',
+  color: 'red'
+})
+*/
 // add all the markers to their own layer group and put them on the map
 var mlayer = new L.LayerGroup()
 var props = region_pillar.features;
@@ -78,12 +83,14 @@ for(i=0; i<props.length; i++) {
     marker.name = props[i].properties.markernames[j]
     marker.summary = props[i].properties.markersummary[j]
     marker.region = props[i].properties.name
+    marker.coord = coord
     marker.addTo(mlayer)
   }};
 
 map.addLayer(mlayer);
 var markers ={
-  "Markers": mlayer
+  "Sessions": mlayer,
+  "Regions" : geojson
 };
 
 var layerControl = L.control.layers(null,markers).addTo(map);
@@ -91,7 +98,9 @@ function markerclick(e) {
   document.getElementById("region_name").innerHTML = '<h4>'+ this.region + '</h4>';
   document.getElementById("marker_name").innerHTML = '<h6>'+ this.name + '</h6>';
   document.getElementById("summary").innerHTML = '<p>'+ this.summary + '</p>';
+  map.setView(this.coord, zoom=0);
 }
+
 // i see, the red triangle appears next to a prior deletion for some reason
 // this provides a useful debugging thing because I can output properties into the legend and see if they change
 // correctly on a click or not
@@ -110,6 +119,15 @@ info.update = function (props) {
 
 info.addTo(map);
 
-var scale = L.control.scale(metric=false, imperial=true);
+var scale = L.control.scale({ metric: false});
 scale.addTo(map);
 */
+L.control.measure({
+  position: 'topright',
+  lineColor: 'white',
+  disableOtherClicksWhileMeasuring: true,
+  formatDistance: function (val) {
+    return Math.round(7.20 * val )/1000 + 'mile';
+  }
+}).addTo(map)
+
