@@ -232,5 +232,35 @@ var region_pillar = {
               [6450.00,3198.00],[6510.00,3327.00],[6543.00,3405.00],[6552.00,3537.00],[6579.00,3627.00],[6642.00,3714.00],[6705.00,3828.00],[6720.00,3903.00],[6714.00,4008.00],[6681.00,4074.00],[6600.00,4125.00],[6399.00,4167.00],[6222.00,4170.00],[6129.00,4158.00],[6006.00,4083.00],[5973.00,3987.00],[6006.00,3889.50],[5967.00,3781.50],[5938.50,3673.50],[5898.00,3544.50],[5877.00,3462.00],[5833.50,3364.50],[5808.00,3294.00],[5789.01,3231.00],[5852.01,3221.00],[5910.01,3209.00],[5978.01,3186.00],[6020.01,3175.00],[6051.01,3166.00],[6103.01,3160.00],[6164.01,3133.00],[6251.01,3097.00],[6313.01,3064.00],[6377.01,3050.00],[6417.00,3105.00]
             ]]
           }},
+          {"type":"Feature",
+        "id":"015",
+        "properties": {
+          "name": "Landing Site of the Acheron",
+          "markerlatlonarray": [[4240,3750]],
+          "markernames": ["Session 20: The Goblin Wall"],
+          "markersummary": ["The party of Jon, Amlid, Lazrim, and Malevir set out to search for the island within the island. They travelled along the western bank of the river headed north from the lower lake, and first encountered a donkey-drawn cart owned by a merchant and his two lackeys. The three beings were dragonoid, and the leader and merchant was named Jeb! The wagon contained (revolting) food, non-magical weapons, and health potions that could be purchased. Jeb was evasive about the details of his origin, but did tell the party about a ship wrecked a bit further up along the river named the 'Acheron'. The party has heard of this ship before, being told of it by the doppelgangers Bertrand and Corbin, as well as the Edwards Dugner. They set out for the shipwreck. Lazrim sensed the presence of a magical item among the wreckage, but before they could investigate further, a chuul mounted by a magical being emerged from the water and attacked the party. During the battle a second chuul and rider emerged and joined the attack. Eventually the party was able to fend off the chuuls, though did not slay any of their assailants. Amlid and Lazrim took a significant amount of damage during the assault. The magical item on the shipwreck was a pocket-sized metal cube. Lazrim studied the magical cube and successfully activated it. Upon setting it down in an open area and stating the activation word (erect), the cube transformed into a 30 foot tall fortified tower. While exploring the tower, they spent half an hour examining the nature of the cube and imagining potential uses for it." +
+          "</br></br>Following a short rest, the party continued further north along the riverbank. Eventually, the river seemed to split around a landmass that seemed to be an island but could have also been a peninsula. While continuing around the landmass, the party encountered a wall spanning from the river's edge to as far west as the eye could see. The wall was guarded by a horde of goblins, who repeated their demands for military servitude or financial tribute. Not wishing to make a full assault on the wall today, the party returned home. On the way back, they encountered a herd of Aurochs in the hills west of the river. The party made a note of it for the absent members interested in zoology, but did not make an effort to capture one, still weakened from the encounter with the chuuls."]
+        },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [[
+              [3789.33,3638.00],[3788.00,3699.33],[3790.00,3764.00],[3787.33,3817.33],[3786.67,3883.33],[3789.33,3940.67],[3790.00,4012.67],[3796.00,4064.00],[3801.33,4101.33],[3800.00,4169.33],[3804.00,4226.00],[3798.67,4284.00],[3799.33,4334.67],[3802.67,4396.67],[3805.33,4420.00],[3800.67,4459.33],[3792.67,4478.67],[3778.67,4490.67],[3761.33,4504.67],[3736.00,4519.33],[3702.00,4530.00],[3662.67,4539.33],[3620.00,4552.67],[3584.00,4569.33],[3554.67,4588.00],[3535.33,4613.33],[3521.33,4629.33],[3511.00,4651.00],[3486.00,4693.00],[3421.00,4649.00],[3371.00,4623.00],[3328.00,4602.00],[3282.00,4574.00],[3241.00,4547.00],[3193.00,4516.00],[3127.00,4488.00],[3081.00,4456.00],[3019.00,4422.00],[2969.00,4395.00],[2891.00,4349.00],[2841.00,4320.00],[2815.00,4290.00],[2839.50,4249.50],[2913.00,4152.00],[2956.50,4098.00],[2994.00,4039.50],[3046.50,3964.50],[3081.00,3918.00],[3108.00,3858.00],[3122.00,3796.67],[3127.33,3746.67],[3127.33,3714.00],[3108.67,3669.33],[3199.33,3719.33],[3223.33,3737.33],[3293.33,3753.33],[3366.67,3749.33],[3430.67,3737.33],[3480.00,3702.67],[3530.67,3679.33],[3574.67,3672.00],[3642.00,3644.00],[3690.00,3612.67],[3778.67,3571.33],[3795.33,3598.67]
+            ]]
+          }},
+          {"type":"Feature",
+        "id":"016",
+        "properties": {
+          "name": "The Island Within",
+          "markerlatlonarray": [[4920,3900]],
+          "markernames": ["Session 21: Orcs, Orcs, and more Orcs"],
+          "markersummary": ["Sariel joined the group with a vague backstory about arriving “by ship” (though the most recent ship arrived two weeks prior). She proved a valuable addition to the party with sick tracking skills and excellent aim in combat. The party met with Fausta before leaving, who requested the intermittent use of the magical item obtained in the last adventure (the cube/tower), much to Lazrim’s dismay. Fausta also gave the party a mission to capture and bring back an orc and a goblin. " +
+          "</br></br>The party of Malevir, Jon, Lazrim, Nowhere, and Sariel picked up the tower/cube on their way out and headed north. They spied a large bird creature in the skies and adjusted their route accordingly, to avoid being bird food. They came across a two-story building with orcs discussing favorite meats, and decided to capture an orc and explore the building. After a brief fight with a few orcs (killing most but leaving one tied up), they continued northward to a large outpost-looking walled-off enclosure. After some invisible flying scouting by Nowhere, who reported on approximately 12 orcs keeping watch and likely more in buildings, they decided to sneak around the edge to cross the bridge. They were assisted by a new friend, Naeris, who caused a distraction in exchange for a future favor in helping him reclaim some belongings. After crossing the bridge, the party followed a trail to the inner part of the island, where they discovered active warfare between goblins and orcs. They engaged for a time, then retreated when it became clear that the skirmish would continue regardless of their involvement. With some shenanigans and sneaking, they returned safely back to the colony. Regrettably, their earlier-captured orc was rescued and they were not able to complete Fausta’s mission of kidnapping, but they brought back knowledge regarding the island’s setup and the ongoing battle between orcs and goblins."]
+        },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [[
+              [-10,10],[-5,-5]
+            ]]
+          }},
 ]};
   
