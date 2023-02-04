@@ -8,7 +8,7 @@ var map = L.map('map', {
   maxBoundsViscosity: 1.0 // prevent use from scrolling off map, tentatively less useful without map margins
 });
 
-var image = L.imageOverlay('./Player Release 10.jpg', bounds).addTo(map);
+var image = L.imageOverlay('./Player Release 11.jpg', bounds).addTo(map);
 map.fitBounds(bounds);
 
 // adds gimp created path to the map
