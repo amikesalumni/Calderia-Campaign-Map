@@ -3,10 +3,10 @@ document.getElementById("Map_button").onclick = function() {mapfunction()};
 function mapfunction() {
   var x = document.getElementById("map");
   var y = document.getElementById("calendar");
-  var z = document.getElementById("shop");
+  //var z = document.getElementById("shop");
   x.style.display = "block";
   y.style.display = "none"
-  z.style.display = "none"
+  //z.style.display = "none"
   document.getElementById('explore').innerHTML = 'Click on a Region or Marker'
   document.getElementById("marker_name").innerHTML = '';
   document.getElementById("summary").innerHTML = '';
@@ -16,10 +16,10 @@ document.getElementById("Calendar_button").onclick = function() {calendarFunctio
 function calendarFunction() {
   var x = document.getElementById("map");
   var y = document.getElementById("calendar");
-  var z = document.getElementById("shop");
+  //var z = document.getElementById("shop");
   x.style.display = "none";
   y.style.display = "block"
-  z.style.display = "none"
+  //z.style.display = "none"
   document.getElementById('explore').innerHTML = 'Click on a Date'
   document.getElementById("region_name").innerHTML = '';
   document.getElementById("marker_name").innerHTML = '';
