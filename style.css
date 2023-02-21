@@ -20,6 +20,36 @@ body {
     float: left;
 }
 
+#calendar{ 
+    width: 100%;
+    height: 600px;
+    float: left;
+    display: none;
+}
+
+table {
+    border: 1px solid black;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+td, tr, th{
+    border: 1px solid black;
+    text-align: center;
+    /*background-color:   lightblue;*/
+}
+
+td.lightgreen{
+    background-color: lightgreen;
+}
+
+td.gold{
+    background-color: gold;
+}
+td:hover{
+    background-color: lightcoral;
+}
+
 #explore{ 
     height: 100%;
     width:100%;
