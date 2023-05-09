@@ -30,6 +30,9 @@ let events = [
   { type: "Session", month: 7, date: 15 },
   { type: "Session", month: 7, date: 22 },
   { type: "Session", month: 8, date: 1 },
+  { type: "Session", month: 8, date: 8 },
+  { type: "Session", month: 8, date: 15 },
+  { type: "Session", month: 8, date: 22 },
 ];
 
 var year = 4647

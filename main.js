@@ -50,7 +50,7 @@ var map = L.map('map', {
   preferCanvas: true // for some reason this prevents the polygons from lagging when you zoom in on the map
 });
 
-var image = L.imageOverlay('./Player Release 12.jpg', bounds).addTo(map);
+var image = L.imageOverlay('./Player Release 13.jpg', bounds).addTo(map);
 map.fitBounds(bounds);
 
 // adds gimp created path to the map
