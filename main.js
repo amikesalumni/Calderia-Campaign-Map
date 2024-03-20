@@ -3,10 +3,8 @@ document.getElementById("Map_button").onclick = function() {mapfunction()};
 function mapfunction() {
   var x = document.getElementById("map");
   var y = document.getElementById("calendar");
-  //var z = document.getElementById("shop");
   x.style.display = "block";
   y.style.display = "none"
-  //z.style.display = "none"
   document.getElementById('explore').innerHTML = 'Click on a Region or Marker'
   document.getElementById("marker_name").innerHTML = '';
   document.getElementById("summary").innerHTML = '';
@@ -16,26 +14,14 @@ document.getElementById("Calendar_button").onclick = function() {calendarFunctio
 function calendarFunction() {
   var x = document.getElementById("map");
   var y = document.getElementById("calendar");
-  //var z = document.getElementById("shop");
   x.style.display = "none";
   y.style.display = "block"
-  //z.style.display = "none"
   document.getElementById('explore').innerHTML = 'Click on a Date'
   document.getElementById("region_name").innerHTML = '';
   document.getElementById("marker_name").innerHTML = '';
   document.getElementById("summary").innerHTML = '';
 }
-/*
-document.getElementById("Shop_button").onclick = function() {shopFunction()};
-function shopFunction() {
-  var x = document.getElementById("map");
-  var y = document.getElementById("calendar");
-  var z = document.getElementById("shop");
-  x.style.display = "none";
-  y.style.display = "none"
-  z.style.display = "block"
-}
-*/
+
 /**
  * MAPPING INFORMATION
  */
@@ -94,8 +80,8 @@ function resetHighlight(e) {
 function zoomToFeature(e) {
   var layertest = e.target;
   document.getElementById("region_name").innerHTML = '<h4>'+ layertest.feature.properties.name + '</h4>';
-  document.getElementById("marker_name").innerHTML = '<h6>' + '</h6>';
-  document.getElementById("summary").innerHTML = '<p>' + '</p>';
+  document.getElementById("marker_name").innerHTML = '<h6>Discovered Locations</h6>';
+  document.getElementById("summary").innerHTML = '<p>' + layertest.feature.properties.maps + '</p>';
   map.fitBounds(layertest.getBounds());
 
 }

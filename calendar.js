@@ -2,7 +2,7 @@
  * Calendar block
  */
 let events = [
-  { type: "Session", month: 3, date: 1 },
+  { type: "Session", month: 3, date: 1 }, 
   { type: "Session", month: 3, date: 8 },
   { type: "Session", month: 3, date: 12 },
   { type: "Session", month: 3, date: 17 },
@@ -33,6 +33,11 @@ let events = [
   { type: "Session", month: 8, date: 8 },
   { type: "Session", month: 8, date: 15 },
   { type: "Session", month: 8, date: 22 },
+  { type: "Session", month: 9, date: 1 },
+  { type: "development", month: 9, date: 7 },
+  { type: "Session", month: 9, date: 8 },
+  { type: "Session", month: 9, date: 9 },
+  { type: "Session", month: 9, date: 12 },
 ];
 
 var year = 4647
@@ -140,7 +145,8 @@ var gold_desc = [
   'Official communication from Fausta',
   'Reinforcements Arrive',
   'Amlid arrives on the island',
-  'Sariel Joins the party'
+  'Sariel Joins the party',
+  'Tairim Joins the party'
 ]
 
 const names = []
